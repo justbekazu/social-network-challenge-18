@@ -1,0 +1,23 @@
+{
+  "name": "social-network-challenge-18",
+  "version": "1.0.0",
+  "description": "back end fun",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justbekazu/social-network-challenge-18.git"
+  },
+  "author": "kaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justbekazu/social-network-challenge-18/issues"
+  },
+  "homepage": "https://github.com/justbekazu/social-network-challenge-18#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.15"
+  }
+}
