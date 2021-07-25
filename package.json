@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/justbekazu/social-network-challenge-18#readme",
   "dependencies": {
+    "date-utils-2020": "^1.0.1",
     "express": "^4.17.1",
     "mongoose": "^5.12.15"
   }
