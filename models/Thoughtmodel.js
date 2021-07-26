@@ -1,6 +1,5 @@
 const { Schema, model, Types } = require("mongoose");
 const { formatDate } = require("date-utils-2020");
-const { Usermodel } = require("./Usermodel");
 
 const ReactionsSchema = new Schema(
   {
@@ -10,7 +9,7 @@ const ReactionsSchema = new Schema(
     },
     reactionBody: {
       type: String,
-      required: "leave a reaction",
+      required: true,
       maxLength: 280,
     },
     username: {
@@ -46,7 +45,6 @@ const ThoughtsSchema = new Schema(
     username: {
       type: String,
       required: true,
-      ref: "Usermodel",
     },
     reactions: [ReactionsSchema],
   },
